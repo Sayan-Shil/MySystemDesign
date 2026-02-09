@@ -1,0 +1,13 @@
+package LLD.DesignPattern.CreationalDesignPattern.AbstractFactoryPattern.FactoryApproach;
+
+public class HondaAccord implements Vehicle {
+    @Override
+    public void start() {
+        System.out.println("Honda Accord starting...");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("Honda Accord stoping...");
+    }
+}

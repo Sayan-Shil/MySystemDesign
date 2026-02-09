@@ -1,5 +1,7 @@
 package LLD.DesignPattern.CreationalDesignPattern.FactoryPattern.TraditionalApproach;
 
+import LLD.DesignPattern.CreationalDesignPattern.FactoryPattern.FactoryDesign.VehicleProvider;
+
 public class Main {
     static void main() {
         Vehicle vehicle = VehicleProvider.getVehicle("Car");
