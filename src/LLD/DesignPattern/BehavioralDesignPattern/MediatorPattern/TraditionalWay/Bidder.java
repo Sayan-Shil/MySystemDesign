@@ -17,6 +17,7 @@ public class Bidder {
                 bidder.receiveBid(this,amount);
                 // More Notification
                 // More Mess
+
             }
         }
 
